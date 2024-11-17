@@ -64,14 +64,14 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .title {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 800;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .form-inputs form {
