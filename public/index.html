@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <script src="../dist/script.js" defer></script>
     <title>Calculadora IMC</title>
 </head>
 
-<body>
+<body data-theme="dark">
     <header>
         <section class=""></section>
     </header>
@@ -20,17 +20,23 @@
             <section class="box-imc">
                 <section class="img-title">
                     <span>
-                        <img src="https://pt.calcuworld.com/wp-content/uploads/sites/6/2019/07/imc-.png" alt="IMC">
+                        <img src="https://pt.calcuworld.com/wp-content/uploads/sites/6/2019/07/imc-.png" alt="IMC" />
                     </span>
                     <h1 class="title">Calculadora</h1>
                 </section>
                 <section class="form-inputs">
                     <form action="" method="post">
-                        <input type="number" name="altura" id="altura" placeholder="Altura:">
-                        <input type="number" name="peso" id="peso" placeholder="Peso:">
-                        <button class="btn-result">Calcular</button>
+                        <input type="text" name="altura" id="altura" placeholder="Altura:" />
+                        <input type="text" name="peso" id="peso" placeholder="Peso:" />
+                        <span class="box-btn">
+                            <button class="pushable">
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span class="front">Calcular</span>
+                            </button>
+                        </span>
                         <input type="text" name="resultado" id="resultado" placeholder="Seu Indice de Massa Corporal"
-                            disabled>
+                            disabled />
                     </form>
                 </section>
             </section>
@@ -39,8 +45,13 @@
                     <h2 class="title-contact">Contato</h2>
                 </span>
                 <span class="box-contact">
-                    <p class="tel">Tel: <a href="wa//:(84) 9 9876-5432">(84) 9 9876-5432</a></p>
-                    <p class="email">E-mail: <a href="mailto:jadsonzap@gmail.com">jadsonzap@gmail.com</a></p>
+                    <p class="tel">
+                        Tel: <a href="wa//:(84) 9 9876-5432">(84) 9 9876-5432</a>
+                    </p>
+                    <p class="email">
+                        E-mail:
+                        <a href="mailto:jadsonzap@gmail.com">jadsonzap@gmail.com</a>
+                    </p>
                 </span>
                 <span class="box-develop">
                     <p class="develop">Development Jadson</p>
