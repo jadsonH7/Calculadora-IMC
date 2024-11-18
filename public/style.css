@@ -9,17 +9,17 @@
 
 :root /* Dark */ {
     --color-bg-dark: #1f1f1ff0;
-    --color-font-dark: #eeeeee;
-    --color-border-dark: #6a6a6a;
+    --color-font-dark: #f0f0f0f0;
+    --color-border-dark: #555555f5;
     --color-button-dark: #03b9b9;
     --color-error-dark: #c20707;
     --color-success-dark: #07d418;
 }
 
 :root {
-    --color-bg-ligtch: #1f1f1ff0;
-    --color-font-ligtch: #eeeeee;
-    --color-border-ligtch: #6a6a6a;
+    --color-bg-ligtch: #f0f0f0f0;
+    --color-font-ligtch: #1f1f1ff0;
+    --color-border-ligtch: #555555f5;
     --color-button-ligtch: #03b9b9;
     --color-error-ligtch: #c20707;
     --color-success-ligtch: #07d418;
@@ -29,7 +29,7 @@ body {
     background-color: var(--color-bg-dark);
     color: var(--color-font-dark);
     width: 100%;
-    height: 85vh;
+    height: 100dvh;
 }
 
 main {
@@ -64,14 +64,14 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .title {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 800;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .form-inputs form {
@@ -191,8 +191,25 @@ a {
 .contacts {
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
+    gap: 1.4rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contacts section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.title-contact {
+  font-size: 1.3rem;
+}
+
+.box-contact, p, a {
+  font-size: .9rem;
+  font-weight: 400;
+  color: #999;
 }
