@@ -1,6 +1,6 @@
 // Criando o titulo
 const createTitle = () => {
-    const title = document.createElement("h1")
+    const title = document.createElement("h1");
     title.innerText = "Calculadora IMC";
     title.classList.add("title");
 
@@ -13,7 +13,7 @@ const calcIMC = (weight: number, height: number) => {
     return new Promise((resolve, reject) => {
         typeof weight !== "number" || typeof height !== "number"
             ? reject("Argumento não e um numero") : resolve(weight / (height * height))
-    })
+    });
 };
 
 const calculoShow = (weight: number, height: number) => {
@@ -31,4 +31,4 @@ const calculoShow = (weight: number, height: number) => {
     console.log(`Calculando o IMC para o peso ${weight} e altura ${height}...`);
 }
 
-calculoShow(56, 163)
+calculoShow(56, 163);
